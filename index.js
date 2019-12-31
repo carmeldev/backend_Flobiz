@@ -15,7 +15,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 
 
 app.get('/', function(req, res, next){
-    res.send("hello"); 
+    res.send("Hello World!"); 
 });
 
 app.post('/adduser',route.adduser);
